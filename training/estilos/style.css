@@ -31,9 +31,11 @@ main {
     height: 500px;
     border-radius: 18px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.527);
+    transition: width 0.3s, height 0.3s;
 }
 
 #imagem {
+    display: block;
     background-image: url(../imagens/pexels-barcelosfotos-2859616.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -47,6 +49,7 @@ main {
 }
 
 #formulario h1 {
+    text-align: center;
     text-align: center;
     margin-bottom: 10px;
 }
