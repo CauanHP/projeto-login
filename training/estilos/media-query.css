@@ -38,6 +38,8 @@
         height: 100%;
     }
 
+    
+
     #formulario {
         float: left;
         width: 50%;
@@ -50,4 +52,11 @@
     #formulario > p {
         font-size: 1.2em;
     }
+
+    .formulario {
+        display: block;
+        margin: auto;
+    }
+    
+
 }
